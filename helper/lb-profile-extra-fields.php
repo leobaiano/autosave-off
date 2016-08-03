@@ -18,7 +18,7 @@
 	 *
 	 * @author   Leo Baiano <leobaiano@lbideias.com.br>
 	 */
-	class Lb_Profile_Extra_Fields {
+	class Lb_Profile_Extra_Fields_Auto_Save_Off {
 
 		/**
 		 * Pluglin Slug
@@ -116,4 +116,3 @@
 			return $response;
 		}
 	} // End Class Lb_Profile_Extra_Fields
-add_action( 'plugins_loaded', array( 'Lb_Profile_Extra_Fields', 'get_instance' ), 0 );
